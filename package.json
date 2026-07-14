@@ -1,0 +1,37 @@
+{
+  "name": "@web4w3/lazy-json-proxy",
+  "version": "1.0.0",
+  "description": "Proxy-based lazy JSON deserializer — parses subtrees on demand and evicts cold entries to minimize heap usage",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "test:coverage": "node --test --experimental-test-coverage test/*.test.js"
+  },
+  "keywords": [
+    "json",
+    "lazy",
+    "proxy",
+    "large-files",
+    "memory",
+    "deserialize",
+    "on-demand"
+  ],
+  "author": "Web4w3 LLC <contact@web4w3.com> (https://web4w3.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Web4w3/lazy-json-proxy.git"
+  },
+  "homepage": "https://github.com/Web4w3/lazy-json-proxy#readme",
+  "bugs": {
+    "url": "https://github.com/Web4w3/lazy-json-proxy/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {}
+}
